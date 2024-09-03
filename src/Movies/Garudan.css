@@ -1,0 +1,53 @@
+.container{   
+    display: flex; 
+    flex-direction: column;  
+    row-gap: 2vh;
+    width: 230vh;
+    height:1100px;
+    /* padding-top: 10vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+    padding-bottom: 10vh; */
+    justify-content: center;
+    padding-left: 50px;
+}
+.content{
+    display: flex;
+    width: 180vh;
+    height: 85vh;
+    padding: 3vh; 
+     }
+.poster{
+    display: flex;
+    width: 50vh;
+    height: 79vh;
+}
+.details1{
+    display: flex;
+    background-image: url("../Assets/Pictures/Garudan-title.jpeg");
+    background-size: cover;
+    background-size: 100%;
+    width: 119vh;
+    height: 79vh;
+    margin-left: 3vh;
+    align-items: center;
+    flex-direction:column-reverse;
+    padding-bottom: 5vh;
+    
+}
+#book-ticket{
+    font-weight: bold;
+    height: 10vh;
+    width: 30vh;
+    
+    
+}
+#book-ticket:hover{
+    background-color: gold;
+    color: black;
+}
+.trailer{
+    display: flex;
+    padding-top: 10vh;
+    justify-content: center;
+}

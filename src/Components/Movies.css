@@ -1,0 +1,22 @@
+
+
+.cards{
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 18rem;
+}
+#Maharaja{
+    height: 300px;
+}
+#indian{
+    height: 303px;
+}
+.movieslist{
+    width: 90vh;
+    height: 500px;
+}

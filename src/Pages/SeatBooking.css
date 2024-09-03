@@ -1,0 +1,73 @@
+SeatBooking.css
+.booking-container { 
+    color: white;   
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: column;    
+
+  }
+  .heading{
+    color: rgb(255, 255, 255) ;
+    justify-content: center;
+    margin-left: 500px;
+    margin-bottom: 20px;
+  }
+  .seats-container {
+    display: grid;
+    grid-template-columns: repeat(10, 30px);
+    gap: 5px;
+    margin-bottom: 100px;
+    margin-left: 500px
+  }
+ 
+  .screen {
+    background-color: #fff;
+    height: 120px;
+    width: 100%;
+    margin: 15px 0;
+    transform: rotateX(-58deg);
+    box-shadow: 0 3px 10px rgba(255, 255, 255, 0.7);
+  }
+  .seat {
+    width: 30px;
+    height: 30px;
+    background-color: lightgray;
+    border: 1px solid #333;
+    cursor: pointer;
+  }
+  
+  .seat.selected {
+    background-color: green;
+  }
+  
+  .seat.sold {
+    background-color: red;
+    cursor: not-allowed;
+  }
+  
+  .controls {
+    margin-top: 20px;
+    margin-left: 600px;
+    color: white;
+  }
+  
+  select {
+    margin-bottom: 10px;
+  }
+  
+  .get-ticket{
+    background-color: green;
+    color: wheat;
+    height: 40px;
+    width: 200px;
+    font-weight: bold;     
+  }
+  .get-ticket:hover{
+    background-color: gold;
+    cursor: pointer;
+    font-weight: bolder;
+    color: black;
+    border-radius: 5px;  
+  }
