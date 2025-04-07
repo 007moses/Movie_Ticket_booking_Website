@@ -1,0 +1,13 @@
+.nav-item:hover{
+    background-color:teal;
+    font-weight: bold;
+    cursor: pointer;    
+}
+
+#page:hover{
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    text-decoration: none;
+    list-style: none;
+}
