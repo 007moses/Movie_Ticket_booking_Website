@@ -3,6 +3,8 @@ require("dotenv").config();
 const TicketRoutes = require("./Routes/TicketRoutes");
 const connectWithDB = require("./Config/mongodbConn");
 const mongoose = require("mongoose");
+const auth = require("./Middleware/auth");
+const User = require("./Models/User");
 
 // const port = 3060;
 
@@ -20,12 +22,19 @@ app.use((req,res,next)=>{
     console.log(req.path, req.method);
     next();
 })
-
 app.use("/api/dashboard",TicketRoutes)
 
 // Connecting to database
 
 connectWithDB();
+
+// Routes
+app.use("/api/auth", require("./Routes/auth"));
+
+// Protected Route Example
+app.get("api/protected",auth,(req,res)=>{
+    res.json({msg:"Protected route", user:req.user});
+})
 
 mongoose.connection.once('open', ()=>{
 

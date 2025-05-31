@@ -43,7 +43,7 @@ const UpdateTicket = async (req,res)=>{
     const UpdatedProject = await TicketModel.findById(id);
     res.status(200).json(UpdatedProject);
     } catch (error) {
-        res.status(500).json({message: erro.message});
+        res.status(500).json({message: error.message});
     }
 }
 

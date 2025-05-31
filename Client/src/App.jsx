@@ -15,6 +15,8 @@ import Indian2 from './Movies/Indian2'
 import Maharaja from './Movies/Maharaja'
 import About from './Pages/About'
 import Contact from './Pages/Contact'
+import Signup1 from './Pages/SignUp1'
+import Login1 from './Pages/Login1'
 
 
 function App() {
@@ -27,8 +29,10 @@ function App() {
         <Route path='/' element={<Home/>} />
         <Route path='/about' element={<About/>} />
         <Route path='/contact' element={<Contact/>}/>
-        <Route path='/register' element={<SignUp/>} />     
-        <Route path='/login' element={<Login/>} />   
+        {/* <Route path='/register' element={<SignUp/>} /> */}
+        <Route path='signup' element={<Signup1/>}/>
+        {/* <Route path='/login' element={<Login/>} />    */}
+        <Route path='login' element={<Login1/>}/>
         <Route path='/SeatBooking' element={<SeatBooking/>}/>     
         <Route path='/Garudan' element={<Garudan/>}/>
         <Route path='/Raayan' element={<Raayan/>}/>
