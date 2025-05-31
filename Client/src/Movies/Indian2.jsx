@@ -1,6 +1,5 @@
-import React from 'react'
 import poster from '../Assets/Pictures/Indian-2(main).jpeg'
-import './Indian2.css'
+import '../Styles/Indian2.css'
 import ReactPlayer from 'react-player'
 import { Link } from 'react-router-dom'
 

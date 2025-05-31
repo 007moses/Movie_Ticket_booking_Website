@@ -1,6 +1,5 @@
-import React from 'react'
 import poster from '../Assets/Pictures/Garudan-main.jpeg'
-import './Garudan.css'
+import '../Styles/Garudan.css'
 import ReactPlayer from 'react-player'
 import { Link } from 'react-router-dom'
 

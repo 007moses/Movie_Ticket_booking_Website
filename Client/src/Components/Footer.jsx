@@ -1,5 +1,4 @@
-import React from 'react'
-import './Footer.css';
+import '../Styles/Footer.css';
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 

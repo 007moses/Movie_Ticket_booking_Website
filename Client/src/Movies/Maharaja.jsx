@@ -1,6 +1,5 @@
-import React from 'react'
 import poster from '../Assets/Pictures/Maharaja1.jfif'
-import './Maharaja.css'
+import '../Styles/Maharaja.css'
 import ReactPlayer from 'react-player'
 import { Link } from 'react-router-dom'
 

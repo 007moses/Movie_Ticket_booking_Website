@@ -1,5 +1,4 @@
-import React from 'react'
-import './Home.css'
+import '../Styles/Home.css'
 import MoviesList from '../Components/MoviesList'
 
 const Home = () => {

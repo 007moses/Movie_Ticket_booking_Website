@@ -1,7 +1,7 @@
 // src/SeatBooking.js
 import { useState } from 'react';
 import jsPDF from 'jspdf';
-import './SeatBooking.css';
+import '../Styles/SeatBooking.css';
 import { Link } from 'react-router-dom';
 
 

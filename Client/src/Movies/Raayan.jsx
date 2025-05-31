@@ -1,6 +1,5 @@
-import React from 'react'
 import poster from '../Assets/Pictures/Raayan-poster.avif'
-import './Raayan.css'
+import '../Styles/Raayan.css'
 import ReactPlayer from 'react-player'
 import { Link } from 'react-router-dom'
 
